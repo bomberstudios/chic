@@ -1,5 +1,5 @@
 {
-  "name": "chic",
+  "name": "chic-assistant",
   "homepage": "https://github.com/bomberstudios/chic",
   "version": "1.0.0",
   "main": "dist/index.js",
