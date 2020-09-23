@@ -2,7 +2,12 @@ import { AssistantPackage, RuleDefinition } from '@sketch-hq/sketch-assistant-ty
 
 const textLayerNoUnstyled: RuleDefinition = {
   rule: async (context) => {
-    context.utils.report('Hello world')
+    const { utils } = context
+    for (const text of utils.objects.text) {
+      if (text.sharedStyleID == undefined) {
+        utils.report(`Text Layer “${text.name}” is not using a Style`, text)
+      }
+    }
   },
   name: 'chic/text-layer-no-unstyled',
   title: 'Text Layer No Unstyled',
