@@ -1,16 +1,5 @@
-# sketch-assistant-template
+# Chic
 
-> 💁‍♀️ This repository contains a starter project for developing a new Assistant.
+Because your Text Layers _need Style, baby_.
 
-👉
-[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/sketch-assistant-template/generate)
-
-## Getting started
-
-For in-depth guides head over to the [Sketch Developer](https://developer.sketch.com/assistants/)
-site.
-
-- [Getting started](https://developer.sketch.com/assistants/getting-started)
-- [Write a rule](https://developer.sketch.com/assistants/write-a-rule)
-- [Publishing](https://developer.sketch.com/assistants/publish)
-- And more!
+This Sketch Assistant will warn you about Text Layers that don't use a Text Style.

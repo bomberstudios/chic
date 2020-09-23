@@ -1,17 +1,17 @@
 {
-  "name": "sketch-assistant-template",
-  "homepage": "https://github.com/sketch-hq/sketch-assistant-template",
+  "name": "chic",
+  "homepage": "https://github.com/bomberstudios/chic",
   "version": "1.0.0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
   "sketch-assistant": {
-    "title": "Sketch Assistant Template",
-    "description": "Template repository for a starter Assistant project",
+    "title": "Chic",
+    "description": "Warn if Text Layers are not using Text Styles",
     "icon": ""
   },
   "author": {
-    "name": "Your Name or Company Name"
+    "name": "Ale Muñoz"
   },
   "keywords": [
     "sketch",
