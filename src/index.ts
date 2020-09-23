@@ -10,7 +10,7 @@ const textLayerNoUnstyled: RuleDefinition = {
     }
   },
   name: 'chic/text-layer-no-unstyled',
-  title: 'Text Layer No Unstyled',
+  title: 'Unstyled Text Layers',
   description: 'Reports Text Layers not using Text Styles',
 }
 
