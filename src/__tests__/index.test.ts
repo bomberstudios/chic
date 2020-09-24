@@ -5,9 +5,10 @@ import Assistant from '..'
 
 test('test assistant', async () => {
   const { violations, ruleErrors } = await testAssistant(
-    resolve(__dirname, './empty.sketch'),
+    resolve(__dirname, './styled-text-test.sketch'),
     Assistant,
   )
-  expect(violations[0].message).toBe('Hello world')
+  expect(violations).toHaveLength(3)
+  expect(violations[0].message).toBe('Text Layer “Unstyled Text” is not using a Style')
   expect(ruleErrors).toHaveLength(0)
 })
