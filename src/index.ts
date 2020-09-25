@@ -16,7 +16,7 @@ const textLayerNoUnstyled: RuleDefinition = {
 
 const assistant: AssistantPackage = async () => {
   return {
-    name: 'chic',
+    name: 'chic-assistant',
     rules: [textLayerNoUnstyled],
     config: {
       rules: {
